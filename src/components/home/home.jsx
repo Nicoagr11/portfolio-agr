@@ -13,15 +13,16 @@ export default function Home() {
     <>
       <CssBaseline />
       <Container maxWidth="sm" sx={{ bgcolor: 'black', padding: 2, borderRadius: 3 }}>
-        <Typography variant="h6" sx={{ color: 'white', mb: 2 }}>Menu</Typography>
+        <Typography variant="h6" sx={{ color: 'white', mb: 2 }}>Mobile</Typography>
 
+        <IconButton color="primary">
         <Card sx={{ display: 'flex', alignItems: 'center', mb: 1, bgcolor: '#333', borderRadius: 5, padding: 1 }}>
-          {/* <IconButton color="primary"><WifiIcon /></IconButton> */}
           <Stack sx={{ ml: 1 }}>
             <Typography sx={{ color: 'white' }}>Skills & technologies</Typography>
             <Typography variant="body2" sx={{ color: 'gray' }}>Connected</Typography>
           </Stack>
         </Card>
+        </IconButton>
 
         <Card sx={{ display: 'flex', alignItems: 'center', mb: 1, bgcolor: '#333', borderRadius: 5, padding: 1 }}>
           {/* <IconButton color="primary"><BluetoothIcon /></IconButton> */}
